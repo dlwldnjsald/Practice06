@@ -30,7 +30,7 @@ public class Customer extends Person {		//부모 person클래스 상속받기
 		}
 		//-------------------------------
 		public int getcNo() {
-			return cN0;
+			return cNo;
 		}
 		
 		public void setcNo() {

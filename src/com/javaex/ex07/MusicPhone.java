@@ -1,7 +1,7 @@
 package com.javaex.ex07;
-
+	//변경x
 public class MusicPhone extends Phone{
-    
+ 
     public void execute(String str){
         
         if("음악".equals(str)){
@@ -16,3 +16,4 @@ public class MusicPhone extends Phone{
         System.out.println("Mp3플레이어에서 음악재생");
     }
 }
+//

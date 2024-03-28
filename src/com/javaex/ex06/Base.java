@@ -1,7 +1,7 @@
 package com.javaex.ex06;
 
 public class Base {
-
+	//수정안했을경우.
     public void service(String state) {
 
         if (state.equals("낮")) { //문자열의 같다(==) 는 equals()를 사용합니다.

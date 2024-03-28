@@ -1,7 +1,7 @@
 package com.javaex.ex06;
 
 public class BaseApp {
-
+	//수정안했을 .
     public static void main(String[] args) {
 
         Base base = new MyBase();

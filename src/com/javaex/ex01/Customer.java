@@ -1,6 +1,6 @@
 package com.javaex.ex01;
 
-public class Customer extends Person {		//부모 person클래스 상속받기
+public class Customer extends Person {//부모 person클래스 상속받기
 	
 	//필드 만들기-----------------------
 		private int cNo;
@@ -16,17 +16,15 @@ public class Customer extends Person {		//부모 person클래스 상속받기
 			this.cNo = cNo;
 			this.point = point;
 			
-			System.out.println( " Customer(3 parameter))");
 		} //로 작성해주고
 	
 	//----------------------------------
 		//getter,setter
 		public Customer(int cNo, int point) {
-			super("Unknown", 0);
 			this.cNo = cNo;
 			this.point = point;
 			
-			System.out.println( " stuent (1 parameter))");// 
+//			System.out.println( " stuent (1 parameter))");// 
 		}
 		//-------------------------------
 		public int getcNo() {
@@ -49,7 +47,7 @@ public class Customer extends Person {		//부모 person클래스 상속받기
 		//------------------------------------
 		@Override
 		public void showInfo() {
-			super.showInfo();
+//			super.showInfo();
 			System.out.println("이름:" + name + ", #hp:" + hp + " #고객번호:" + cNo + " #포인트점수:" + point);	
 		}
 				

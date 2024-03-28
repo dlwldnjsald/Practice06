@@ -3,8 +3,8 @@ package com.javaex.ex01;
 public class Person {
 	//person이 상위클래스 부모클래스, customer가 하위클래스 자식클래스로 설정됨
 	
-	private String name;
-	private String hp;      //필드에 name,hp 2개 선언;
+	protected String name;
+	protected String hp;      //필드에 name,hp 2개 선언;
 	
 	//----------------------------------------------
 	

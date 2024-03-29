@@ -2,7 +2,7 @@ package com.javaex.ex03;
 
 public class Shape {
 	
-	protected String fillColor;
+	protected String fillColor; //
 	protected String lineColor;
 	
 	

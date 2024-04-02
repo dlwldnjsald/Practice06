@@ -59,7 +59,7 @@ public class Customer extends Person {//부모 person클래스 상속받기
 	//필드 만들기-----------------------
 		private int cNo;
 		private int point;
-	
+	//fyghftytfy
 	//----------------------------------------------------
 		
 		public Customer(String name, String hp, int cNo, int point) {
